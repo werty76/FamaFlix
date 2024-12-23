@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.FamaFlix" name="Famaflix Repositor" version="VERSION_NUMBER_HERE" provider-name="werty76">
+    <extension point="xbmc.addon.repository" name="Famaflix Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/werty76/repository.FamaFlix/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/werty76/repository.FamaFlix/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/werty76/repository.FamaFlix/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Famaflix Repository</summary>
+        <description>Famaflix os melhores filmes e series aqui</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
